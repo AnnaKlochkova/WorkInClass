@@ -10,18 +10,16 @@ public class Task1 {
 		int n;
 		System.out.print("Input n");
 		n=sc.nextInt();
+		for(int j=0; j<n;j++){
 		for(int i=0; i<n;i++){
 			if(i%2==0){
 				System.out.print("+++");
 				}else{
 					System.out.print("***");
-			for(int j=0; j<n;j++){
-				if(j%2==0){
-					System.out.println("+++");
-					}else{
-						System.out.println("***");
+			
 				}
 		}
+			System.out.println();
 	}
 		}
 	}
